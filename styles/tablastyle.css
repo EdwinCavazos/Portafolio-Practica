@@ -1,0 +1,36 @@
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(139, 139, 139);
+    
+}
+.tabla{
+    background-color: white;
+    width: 540px;
+}
+thead{
+    color:rgb(255, 0, 0);
+}
+
+tbody{
+    color: rgb(0, 0, 0);
+    transition: background-color .5s;
+}
+tfoot{
+    color:rgb(0, 98, 143);
+}
+table, th, td{
+    border: solid 1px black;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+tbody:hover{
+    background-color: rgb(84, 221, 107);
+}
+thead:hover{
+    background-color: rgb(252, 97, 92);
+}
+tfoot:hover{
+    background-color: rgb(142, 171, 233);
+}
