@@ -1,0 +1,119 @@
+
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    background-color: #F5F7FB;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.App {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+    background-color: #eaeaea;
+    transition: top 500ms ease-in-out;
+}
+
+.links {
+    display: flex;
+    margin: 0 -1em;
+}
+
+.links a {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+.logo {
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+
+label {
+    margin: 10px;
+}
+
+
+
+table,
+th,
+td {
+    border: 1px solid black;
+    
+}
+.formContacto{
+    background-color: rgb(94, 161, 219);
+    width: 300px;
+    border-radius: 5px;
+    border-top: solid 0px;
+    padding-bottom: 10px;
+    transition: background-color .5s;
+    -webkit-transition:all .9s ease;
+}
+.formContacto:hover{
+    background-color: rgb(86, 136, 228);
+    -webkit-transform:scale(1.15);
+transform:scale(1.15);
+}
+.boton{
+    background-color: rgb(168, 230, 230);
+    border: solid 0px;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    font-size: 15px;
+    -webkit-transition:all .9s ease;
+}
+.boton:hover{
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+    background-color: rgb(40, 172, 224);
+}
+.input{
+    background-color: rgb(26, 62, 94);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    margin-left: 10px;
+    
+}
+h2{
+    border-bottom: solid 1px rgb(68, 68, 68);
+    margin: 15px;
+    padding: 1px;
+}
+h3{
+    display: flex;
+}
+.tabla{
+  
+    margin: 0 auto;
+}
